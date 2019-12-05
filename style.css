@@ -1,6 +1,27 @@
+.white {
+    background:#fff;
+    color: black;
+}
+.dark {
+    background:#000;
+    color: white;
+}
+.videoyt {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    margin-bottom: 25px;
+}
+.videoyt iframe {position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
 h1 {
-    color: red;
     font-size: 90px;
     text-align: center;
-    background: black;
+    color: red;
 }

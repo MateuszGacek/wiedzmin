@@ -1,18 +1,36 @@
 <!DOCTYPE html>
-<html lang="pl">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Wiedźmin 3</title>
     <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
+<button type="button" id="darkMode">Night</button>
+<button type="button" id="whiteMode">Day</button>
+<script>
+    document.getElementById("darkMode").onclick = function(){
+        document.body.className = "dark";
+    };
 
-<header>
-    <h1> Wiedźmin 3 </h1>
+    document.getElementById("whiteMode").onclick = function(){
+        document.body.className = "white";
+    };
+</script>
+
+<h1>Wiedźmin 3</h1>
+
+<div class="videoyt">
+    <iframe width="1280" height="720" src="https://www.youtube.com/embed/c0i88t0Kacs"  ></iframe>
+</div>
+
 </header>
 
 <section>
     <nav>
+        <p> Wiedźmin 3: Dziki Gon (The Witcher 3: Wild Hunt) to trzecia odsłona popularnej serii gier RPG opartej na prozie Andrzeja Sapkowskiego. Tytuł wyprodukowało studio CD Projekt RED,
+            czyli zespół odpowiedzialny również za dwie poprzednie części – Wiedźmina z 2007 roku i Wiedźmina 2: Zabójców Królów z 2011 roku.</p>
 
     </nav>
 
@@ -22,8 +40,9 @@
 </section>
 
 <footer>
-    
+
 </footer>
+
 
 
 </body>
