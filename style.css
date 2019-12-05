@@ -6,6 +6,11 @@
     background:#000;
     color: white;
 }
+h1 {
+    font-size: 90px;
+    text-align: center;
+    color: red;
+}
 .videoyt {
     position: relative;
     padding-bottom: 56.25%;
@@ -24,4 +29,30 @@ h1 {
     font-size: 90px;
     text-align: center;
     color: red;
+}
+.background {
+    background-attachment: fixed;
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 54vh;
+    max-height: 1200px;
+    min-height: 200px;
+}
+.background-1 {
+    background-image: url(https://wallpaperaccess.com/full/414982.jpg);
+}
+
+.background-2 {
+    background-image: url(https://wallpaperaccess.com/full/777838.jpg);
+}
+
+.background-3 {
+    background-image: url(https://i.pinimg.com/originals/91/c7/c0/91c7c000cf6c08eb47a6d02d2d4ed15b.jpg);
+}
+h2 {
+    text-align: center;
+    font-size: 75px;
+    color: #36faff;
+    padding: 25%;
 }
