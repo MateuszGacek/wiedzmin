@@ -2,19 +2,20 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wiedźmin 3</title>
     <link rel="stylesheet" href="style.css">
 
 </head>
 <body>
-<div id="google_translate_element"></div>
+<div id="google_translate_element" align="right"></div>
 
 <script type="text/javascript">
     function googleTranslateElementInit() {
         new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
     }
 </script>
-<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+<script type="text/javascript"  src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
 <button type="button" id="darkMode">Night</button>
 <button type="button" id="whiteMode">Day</button>
@@ -36,8 +37,30 @@
 
 </header>
 
-<section>
+<section >
+    <style>
+
+        .left {
+            float:left;
+            width:480px;
+        }
+        .right {
+            float:left;
+            width: 480px;
+        <!-- Nie wiem jak zrobić autodostosowanie  (żeby min width był 480 a max na ile monitor pozwala) -->
+        }
+        @media only screen and (max-width:480px) {
+
+            .left, right {
+                width:100%;
+            }
+        }
+    </style>
+    <div style="overflow:auto">
+        <div class="left">
+
     <nav>
+
         <style> td { border: 1px solid green; } </style>
 
         <table>
@@ -54,13 +77,19 @@
                 <td>Karta graficzna</td> <td>2 GB GeForce GTX 770/4 GB Radeon R9 290 lub lepsza</td>
             </tr>
         </table>
+
     </nav>
+    </div>
+    <div class="right">
 
     <article>
+
         <p> Wiedźmin 3: Dziki Gon (The Witcher 3: Wild Hunt) to trzecia odsłona popularnej serii gier RPG opartej na prozie Andrzeja Sapkowskiego. Tytuł wyprodukowało studio CD Projekt RED,
             czyli zespół odpowiedzialny również za dwie poprzednie części – Wiedźmina z 2007 roku i Wiedźmina 2: Zabójców Królów z 2011 roku.</p>
 
+
     </article>
+    </div>
 
 
 </section>
