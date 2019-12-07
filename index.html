@@ -30,6 +30,7 @@
 
 <button type="button" id="darkMode">Night</button>
 <button type="button" id="whiteMode">Day</button>
+
 <script>
     document.getElementById("darkMode").onclick = function(){
         document.body.className = "dark";
@@ -41,6 +42,7 @@
 </script>
 
 <header>
+
 <h1>Wiedźmin 3</h1>
 
 <div class="videoyt">
@@ -126,8 +128,16 @@
 
 
 <footer>
-    <a href="https://www.facebook.com/pages/category/Games-Toys/Wied%C5%BAmin-3-517744504926245/" class="fa fa-facebook"></a>
-    <a href="https://www.instagram.com/cdpred/?hl=pl" class="fa fa-instagram"></a>
+    <script>
+        function myFunction() {
+            var x = Math.floor((Math.random() * 999) + 1);
+            document.getElementById("count").innerHTML = "Liczba odwiedzin strony: "+x;
+        }
+    </script>
+    <div class="button">
+    <button onclick="myFunction()">Liczba odwiedzin</button>
+    </div>
+    <p id="count" ></p>
 
 </footer>
 

@@ -7,6 +7,7 @@
     color: white;
 }
 
+
 h1 {
     font-size: 90px;
     text-align: center;
@@ -102,6 +103,7 @@ h2 {
 }
 footer{
     background: gray;
+    height: 150px;
 }
 .icon-bar {
     position: fixed;
@@ -128,3 +130,7 @@ footer{
     background: #bb0000;
     color: white;
 }
+.button {
+    text-align: center;
+}
+
