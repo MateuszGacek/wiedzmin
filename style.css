@@ -53,6 +53,8 @@ p { text-align: center;
     }
 }
 
+td { border: 1px solid green; }
+
 .background {
     background-attachment: fixed;
     background-position: 50% 0;
