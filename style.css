@@ -6,6 +6,7 @@
     background:#000;
     color: white;
 }
+
 h1 {
     font-size: 90px;
     text-align: center;
@@ -15,7 +16,7 @@ p { text-align: center;
     margin-left: auto;
     margin-right: auto;
     min-width: 480px;
-    max-width: 1920px;
+    max-width: 1280px;
     display: block;
 
 }
@@ -31,6 +32,25 @@ p { text-align: center;
     left: 5%;
     width: 90%;
     height: 100%;
+}
+
+.left {
+    float:left;
+    width: 40%;
+    background-color: #1b2780;
+    height:200px;
+}
+.right {
+    float:left;
+    width: 60%;
+    background-color: #44ff1d;;
+    height: 200px;
+}
+@media only screen and (max-width:960px) {
+
+    .left, .right {
+        width:100%;
+    }
 }
 
 .background {
@@ -63,4 +83,3 @@ h2 {
     display: block;
     margin: auto;
 }
-
