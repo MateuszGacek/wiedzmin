@@ -42,16 +42,19 @@
 
         .left {
             float:left;
-            width:480px;
+            width: 40%;
+            background-color: #1b2780;
+            height:200px;
         }
         .right {
             float:left;
-            width: 480px;
-        <!-- Nie wiem jak zrobić autodostosowanie  (żeby min width był 480 a max na ile monitor pozwala) -->
+            width: 60%;
+            background-color: #44ff1d;;
+            height: 200px;
         }
-        @media only screen and (max-width:480px) {
+        @media only screen and (max-width:960px) {
 
-            .left, right {
+            .left, .right {
                 width:100%;
             }
         }
@@ -110,6 +113,7 @@
     <h2>Inne</h2>
 </section>
 <p>Produkcja studia CD Projekt RED okazała się jedną z najlepszych gier 2015 roku – i całej ósmej generacji konsol. Tytuł zebrał bardzo pochlebne recenzje w mediach, dzięki czemu załapał się do zestawienia najlepiej ocenianych produkcji w serwisie Metacritic. Wiedźmin 3: Dziki Gon zdobył też szereg nagród i wyróżnień, w tym tytuł gry roku na galach The Game Awards 2015 i Golden Joystick Awards 2015. Również w Polsce projekt doczekał się wielu wyróżnień – od tytułu „Kreatora Kultury”, przyznanego przez tygodnik Polityka oraz Stowarzyszenie Autorów ZAiKS, przez dwa wyróżnienia Empiku, po najważniejszą nagrodę w plebiscycie Gra roku 2015 według czytelników GRYOnline.pl.</p>
+<!--
 <script>
 
 var images = [].slice.call(document.querySelectorAll('.js-parallax-bg'));
@@ -126,6 +130,7 @@ function getViewportHeight() {
 var a = document.documentElement.clientHeight, b = window.innerHeight;
 return a < b ? b : a;
 </script>
+-->
 <img src="http://www.gikz.pl/wp-content/uploads/2013/11/thewitcher3-armor.gif" alt="gif" class="center"/>
 <br><a href="https://gamingbolt.com/wp-content/uploads/2015/04/The-Witcher-3-3.jpg">
 <img src="https://imgbbb.com/images/2019/12/06/The-Witcher-3-3.jpg" alt="Gameplay">

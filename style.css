@@ -32,17 +32,6 @@ p { text-align: center;
     width: 90%;
     height: 100%;
 }
-section nav{
-    background-color: #1b2780;
-    height:200px;
-    float: left;
-    padding: 15px 1px;
-}
-section article {
-    padding: 15px 1px;
-    background-color: #44ff1d;;
-    height: 200px;
-}
 
 .background {
     background-attachment: fixed;
