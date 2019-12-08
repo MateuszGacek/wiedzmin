@@ -7,7 +7,7 @@
     color: white;
 }
 .typewriter h1 {
-    font-family: Impact;
+    font-family: Impact, serif ;
     overflow: hidden;
     border-right: .15em solid orange; /
 white-space: nowrap;
@@ -26,14 +26,14 @@ white-space: nowrap;
 @keyframes blink-caret {
     from, to { border-color: transparent }
 }
-p { font-family: Arial, Helvetica, sans-serif;
+p {
+    font-family: Arial, Helvetica, sans-serif;
     text-align: justify;
     margin-left: auto;
     margin-right: auto;
     min-width: 480px;
     max-width: 1280px;
     display: block;
-
 }
 .videoyt {
     position: relative;
@@ -42,7 +42,8 @@ p { font-family: Arial, Helvetica, sans-serif;
     overflow: hidden;
     margin-bottom: 25px;
 }
-.videoyt iframe {position: absolute;
+.videoyt iframe {
+    position: absolute;
     top: 0;
     left: 5%;
     width: 90%;
@@ -62,13 +63,14 @@ p { font-family: Arial, Helvetica, sans-serif;
     height: 200px;
 }
 @media only screen and (max-width:960px) {
-
     .left, .right {
         width:100%;
     }
 }
 
-td { border: 1px solid green; }
+td {
+    border: 1px solid green;
+}
 
 .background {
     background-attachment: fixed;
@@ -105,13 +107,11 @@ h2 {
     display: block;
     width: 288px;
 }
-
 .dropdown-content {
     display: none;
     position: absolute;
     z-index: 1;
 }
-
 .dropdown:hover .dropdown-content {
     display: block;
 }
@@ -127,7 +127,6 @@ footer{
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
 }
-
 .icon-bar a {
     display: block;
     text-align: center;
@@ -136,7 +135,6 @@ footer{
     color: white;
     font-size: 20px;
 }
-
 .icon-bar a:hover {
     background-color: #000;
 }
@@ -145,6 +143,9 @@ footer{
     color: white;
 }
 .button {
+    text-align: center;
+}
+h3 {
     text-align: center;
 }
 
