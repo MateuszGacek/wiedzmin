@@ -6,12 +6,24 @@
     background:#000;
     color: white;
 }
-
-
-h1 {
-    font-size: 90px;
-    text-align: center;
+.typewriter h1 {
+    overflow: hidden;
+    border-right: .15em solid orange; /
+white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: .15em;
     color: red;
+    font-size: 90px;
+    animation:
+            typing 3.5s steps(80, end),
+            blink-caret .75s step-end infinite;
+}
+@keyframes typing {
+    from { width:0px }
+    to { width: 960px }
+}
+@keyframes blink-caret {
+    from, to { border-color: transparent }
 }
 p { text-align: center;
     margin-left: auto;
